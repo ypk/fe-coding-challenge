@@ -18,6 +18,12 @@ Your task is to create a board grid containing the values of the board, and to h
 
 Your task is to create a win condition handler that checks on each move whether a player has won. If a player wins, display a win message with the winning player.
 
+## Limitations
+
+* Please limit yourself to `redux-thunk`, `redux-saga` and `redux-observable` for handling side effects.
+* UI can be implemented using a library or plain CSS, however you feel most comfortable.
+* Feel free to use any helpers or utility libraries you need.
+
 ## Available Scripts
 
 In the project directory, you can run:
