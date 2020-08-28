@@ -12,7 +12,7 @@ Your task is to create a board grid containing the values of the board, and to h
 
 ### Create a win condition
 
-* In `src/store` we provide support for `redux-thunk`, `redux-saga` and `redux-observable`. Please choose one to implement a win condition with.
+* In `src/store` we provide support for `redux-thunk`, `redux-saga` and `redux-observable`. You must use one of these to implement a win condition with.
 * A player wins by selecting 3 uninterrupted cells in a row, column or diagonal.
 * The winning player should be populated inside `state.game.winner`.
 
@@ -20,7 +20,8 @@ Your task is to create a win condition handler that checks on each move whether 
 
 ## Limitations
 
-* Please limit yourself to `redux-thunk`, `redux-saga` and `redux-observable` for handling side effects.
+* Please utilise only `redux-thunk`, `redux-saga` or `redux-observable` for handling side effects.
+* Make your changes within this codebase, we'd like to see how you interact with legacy code.
 * UI can be implemented using a library or plain CSS, however you feel most comfortable.
 * Feel free to use any helpers or utility libraries you need.
 
